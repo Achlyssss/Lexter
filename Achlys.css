@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: relative;
+	
+	
+}
+
+body {
+	background-color: black;
+
+}
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	color: #fff;
+	font-weight: 600;
+}
+
+
+
+.nav-item {
+	font-family: sans-serif;
+	font-weight: 50;
+	color: black;
+	
+	margin-right: 5px;
+	border-radius: 9px;
+}
+
+.nav-link {
+	color: black;
+}
+
+.navbar-brand {
+	color: black;
+}
+
+a {
+	color: rgb(204, 255, 21);
+}
+
+

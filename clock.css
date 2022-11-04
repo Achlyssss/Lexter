@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("/mynew/clock.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+    color: #fbe7e4;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background-color: #99e2b4;
+    opacity: .8;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+    
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #036666;
+    opacity: .8;
+    letter-spacing: 2px;
+}
+
+.clock #ampm {
+    margin-top: 80px;
+    bottom: 0;
+    position: static;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #93b1a7;
+    opacity: .8;
+    letter-spacing: 1px;
+}
